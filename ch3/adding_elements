@@ -1,0 +1,20 @@
+
+# changing values in a list
+city = ['delhi','mumbai','kolkata','chennai']
+city[1] = 'pune'
+print(f'{city}\n')
+
+# Adding elements
+
+# Method 1 : Using Append (adds elements from the last)
+city.append('hyderabad')
+print(f'{city}\n')
+
+# Method 2 : Using Insert (adds element at a particular index position)
+city.insert(1,'karnataka')
+print(city)
+
+city.insert(len(city),'lucknow')        # adds element at the last using insert(if you don't know the index)
+print(city)
+city.insert(7,'pune')                   # adds element at the last
+print(city)
